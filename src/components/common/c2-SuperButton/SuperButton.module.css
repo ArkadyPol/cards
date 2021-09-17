@@ -1,0 +1,9 @@
+.default {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.red {
+    background: red;
+    cursor: pointer;
+}

@@ -1,6 +1,7 @@
 {
   "name": "cards",
   "version": "0.1.0",
+  "homepage": "https://ArkadyPol.github.io/cards",
   "private": true,
   "dependencies": {
     "axios": "^0.21.4",
@@ -17,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +49,7 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@types/react-router-dom": "^5.1.9",
+    "gh-pages": "^3.2.3",
     "typescript": "^4.1.2"
   }
 }
